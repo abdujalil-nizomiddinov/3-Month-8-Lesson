@@ -21,11 +21,11 @@
 // // Task-2
 // let num = prompt("Son kiriting:");
 
-// if (num / 3 && num / 5) {
+// if (num % 3 === 0 && num % 5 === 0) {
 //   alert("FizzBuzz");
-// } else if (num / 3) {
+// } else if (num % 3 === 0) {
 //   alert("Fizz");
-// } else if (num / 5) {
+// } else if (num % 5 === 0) {
 //   alert("Buzz");
 // } else {
 //   alert(num);
